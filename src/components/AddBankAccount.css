@@ -1,0 +1,47 @@
+.add-bank-account {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+  }
+  
+  .add-bank-account h2 {
+    text-align: center;
+  }
+  
+  .add-bank-account form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .add-bank-account label {
+    margin-bottom: 5px;
+  }
+  
+  .add-bank-account input {
+    margin-bottom: 15px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+  }
+  
+  .add-bank-account button {
+    padding: 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .add-bank-account button:hover {
+    background-color: #0056b3;
+  }
+  
+  .message {
+    color: red;
+    text-align: center;
+  }
+  

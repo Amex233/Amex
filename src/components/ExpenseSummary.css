@@ -1,0 +1,42 @@
+/* src/components/ExpenseSummary.css */
+
+.expense-summary-container {
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    max-width: 600px;
+    margin: 20px auto;
+  }
+  
+  h2 {
+    text-align: center;
+    color: #333;
+  }
+  
+  h3 {
+    text-align: center;
+    color: #2c3e50;
+  }
+  
+  .expense-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+  
+  .expense-table th, .expense-table td {
+    padding: 12px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .expense-table th {
+    background-color: #007bff;
+    color: white;
+  }
+  
+  .expense-table tr:hover {
+    background-color: #f1f1f1;
+  }
+  
