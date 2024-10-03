@@ -1,70 +1,31 @@
-# Getting Started with Create React App
+# Proyecto Amex
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Descripción del Proyecto
 
-## Available Scripts
+El proyecto Amex es una aplicación de gestión financiera que permite a los usuarios registrar sus gastos y administrar sus cuentas bancarias de manera eficiente. El sistema ofrece funcionalidades como el registro de usuarios, autenticación, gestión de cuentas bancarias y generación de resúmenes de gastos.
 
-In the project directory, you can run:
+## Objetivos del Proyecto
 
-### `npm start`
+1. **Interfaz de Usuario Amigable**: Diseñar una interfaz intuitiva que facilite la navegación y el uso de la aplicación.
+2. **Registro y Autenticación de Usuarios**: Implementar un sistema de registro de usuarios y autenticación segura para proteger la información personal.
+3. **Gestión de Cuentas Bancarias**: Permitir a los usuarios agregar y gestionar múltiples cuentas bancarias, facilitando la visualización y el control de sus finanzas.
+4. **Resumen de Gastos**: Generar resúmenes de gastos que permitan a los usuarios tener una visión clara de sus finanzas.
+5. **Alertas de Presupuesto**: Implementar un sistema de alertas que notifique a los usuarios cuando estén cerca de alcanzar sus límites de presupuesto.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Funcionamiento del Código
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+El código se ha desarrollado utilizando React para el frontend y Node.js con Express para el backend. Aquí se detallan las principales funcionalidades implementadas:
 
-### `npm test`
+- **Registro de Usuarios**: Los usuarios pueden registrarse proporcionando su nombre, correo electrónico y contraseña. Esta información se almacena en una base de datos MongoDB.
+  
+- **Inicio de Sesión**: Los usuarios pueden iniciar sesión con su correo electrónico y contraseña. Se utiliza JSON Web Tokens (JWT) para autenticar las sesiones y proteger las rutas del backend.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- **Agregar Cuentas Bancarias**: La aplicación permite a los usuarios agregar detalles de sus cuentas bancarias, que se guardan en la base de datos y se pueden gestionar fácilmente.
 
-### `npm run build`
+- **Resumen de Gastos**: Los usuarios pueden ver un resumen de sus gastos, calculado automáticamente en función de las transacciones registradas. Esto proporciona una visión clara de sus finanzas.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- **Alertas de Presupuesto**: Los usuarios pueden establecer límites de gasto y recibir notificaciones cuando se acercan a estos límites, ayudando así a mantener el control sobre sus finanzas.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Conclusión
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+El proyecto Amex tiene como objetivo ofrecer a los usuarios una herramienta útil y eficiente para la gestión de sus finanzas personales. La implementación de estas funcionalidades no solo ayuda a los usuarios a llevar un mejor control de sus gastos, sino que también proporciona un enfoque proactivo para la gestión del dinero.
