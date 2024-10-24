@@ -1,42 +1,76 @@
-/* src/components/ExpenseSummary.css */
-
 .expense-summary-container {
-    padding: 20px;
-    background-color: #f9f9f9;
-    border-radius: 8px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-    max-width: 600px;
-    margin: 20px auto;
-  }
-  
-  h2 {
-    text-align: center;
-    color: #333;
-  }
-  
-  h3 {
-    text-align: center;
-    color: #2c3e50;
-  }
-  
-  .expense-table {
-    width: 100%;
-    border-collapse: collapse;
-    margin-top: 20px;
-  }
-  
-  .expense-table th, .expense-table td {
-    padding: 12px;
-    text-align: left;
-    border-bottom: 1px solid #ddd;
-  }
-  
-  .expense-table th {
-    background-color: #007bff;
-    color: white;
-  }
-  
-  .expense-table tr:hover {
-    background-color: #f1f1f1;
-  }
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  max-width: 1000px;
+  margin: 20px auto;
+}
+
+h2, h3 {
+  text-align: center;
+  color: #2c3e50;
+}
+
+.expense-table, .credit-history-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+.expense-table th, .expense-table td, 
+.credit-history-table th, .credit-history-table td {
+  padding: 12px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+.expense-table th, .credit-history-table th {
+  background-color: #007bff;
+  color: white;
+}
+
+.expense-table tr:hover, .credit-history-table tr:hover {
+  background-color: #f1f1f1;
+}
+
+.main-content {
+  display: flex;
+  justify-content: space-between;
+}
+
+.left-section {
+  width: 65%;
+}
+
+.right-section {
+  width: 30%;
+  background-color: #f1f1f1;
+  padding: 10px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.pending-payments-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+.pending-payments-list li {
+  background-color: #f9f9f9;
+  margin-bottom: 10px;
+  padding: 10px;
+  border-radius: 4px;
+}
+
+.credit-history {
+  margin-top: 40px;
+}
+
+.total-account {
+  margin-top: 30px;
+  text-align: center;
+  font-weight: bold;
+}
+
   

@@ -3,10 +3,10 @@ import { BrowserRouter as Router, Route, Routes, Link } from 'react-router-dom';
 import Register from './components/Register';
 import Login from './components/Login';
 import Admin from './components/Admin';
-import './App.css'; // Importa los estilos generales
+import './App.css'; 
 import Feedback from './components/Feedback';
-import AddBankAccount from './components/AddBankAccount'; // Importar el nuevo componente
-import ExpenseSummary from './components/ExpenseSummary'; // Importa el nuevo componente
+import AddBankAccount from './components/AddBankAccount'; 
+import ExpenseSummary from './components/ExpenseSummary'; 
 function App() {
   return (
     <Router>
@@ -17,7 +17,7 @@ function App() {
         <Link to="/admin">Administración</Link> {/* Añadir enlace al panel de admin */}
         <Link to="/feedback">Retroalimentación</Link> {/* Nueva ruta */}
         <Link to="/add-bank-account">Agregar Cuenta Bancaria</Link> {/* Enlace a la nueva página */}
-        <Link to="/expense-summary">Resumen de Gastos</Link> {/* Añade este enlace */}
+        <Link to="/expense-summary">Resumen de Gastos</Link> {}
       </nav>
       <div className="container">
         <h1>Amex</h1>

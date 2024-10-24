@@ -1,4 +1,4 @@
-/* FormStyles.css */
+
 form {
     display: flex;
     flex-direction: column;
@@ -35,7 +35,7 @@ form {
   button:hover {
     background-color: #0056b3;
   }
-  /* FormStyles.css */
+ 
 .back-button {
   display: inline-block;
   margin-top: 15px;
@@ -44,10 +44,10 @@ form {
   color: white;
   border: none;
   border-radius: 4px;
-  text-decoration: none; /* Remueve el subrayado */
+  text-decoration: none; 
   text-align: center;
 }
 
 .back-button:hover {
-  background-color: #0056b3; /* Cambia el color al pasar el mouse */
+  background-color: #0056b3; 
 }

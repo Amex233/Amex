@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import './Login.css'; // Asegúrate de crear este archivo CSS.
+import './Login.css'; 
 
 const Login = () => {
   const [email, setEmail] = useState('');
@@ -22,7 +22,7 @@ const Login = () => {
       }
 
       const data = await response.json();
-      // Manejar el token y la autenticación aquí (almacenar en localStorage, redirigir, etc.)
+      // Manejar el token y la autenticación aquí (almacenar en localStorage, redirigir)
       console.log(data);
     } catch (err) {
       setError(err.message);

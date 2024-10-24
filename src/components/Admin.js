@@ -1,5 +1,5 @@
 import React from 'react';
-import './Admin.css'; // Estilos específicos para la página de Admin
+import './Admin.css'; // CSS ADMIN
 
 function Admin() {
   return (
@@ -38,7 +38,7 @@ function Admin() {
             <td>-</td>
             <td>Completo</td>
           </tr>
-          {/* Añadir más filas según el sprint */}
+          {/* Añadir más filas si se requiere*/}
         </tbody>
       </table>
 

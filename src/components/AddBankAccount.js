@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import axios from 'axios';
-import './AddBankAccount.css'; // Asegúrate de importar el CSS
+import './AddBankAccount.css'; // Insertamos el css
 
 function AddBankAccount() {
   const [accountName, setAccountName] = useState('');

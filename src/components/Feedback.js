@@ -7,7 +7,7 @@ function Feedback() {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    // Aquí podrías enviar la retroalimentación a un backend o almacenarla temporalmente
+    // retroalimentación backend 
     console.log('Retroalimentación enviada:', feedback);
     setSubmitted(true);
   };

@@ -15,7 +15,7 @@ function Register() {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    // Aquí enviarías los datos al backend
+    // datos al backend
     console.log('Datos enviados:', formData);
   };
 
