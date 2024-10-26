@@ -22,6 +22,22 @@ El proyecto Amex es una aplicación de gestión financiera que permite a los usu
 
 4. **Mejoras en la Interfaz**: Se han realizado cambios en el CSS para mejorar la presentación de los componentes, asegurando que la información sea clara y fácil de leer. El total de gastos se ha posicionado al final del resumen, mientras que los pagos pendientes y el historial crediticio se muestran de manera organizada.
 
+## Cambios Versión 0.4
+
+1. **Mejoras en el Componente de Registro**:
+   - **Nuevos Campos**: Se han añadido nuevos campos en el formulario de registro para capturar información adicional del usuario, como nombre completo, fecha de nacimiento, teléfono y dirección. Estos campos permiten una captura de datos más completa y personalizada.
+   - **Validaciones Mejoradas**: Se implementaron validaciones adicionales para cada campo, asegurando la correcta entrada de datos y proporcionando mensajes de error específicos en caso de formatos incorrectos.
+   - **Estilo Modernizado**: El estilo del componente de registro fue mejorado para ofrecer una interfaz visualmente atractiva y profesional. Los campos y el botón de registro se han rediseñado para mejorar la accesibilidad y el diseño ejecutivo del formulario.
+
+2. **Actualización de CSS para Registro**:
+   - **Estilo de Formulario Mejorado**: Los nuevos campos y el botón de registro cuentan con estilos mejorados, como márgenes y paddings optimizados, un esquema de colores actualizado y transiciones en el botón para mejorar la experiencia del usuario.
+   - **Estilo Responsive**: Se han agregado ajustes de diseño responsive, asegurando que el formulario se adapte bien en diferentes tamaños de pantalla y dispositivos móviles.
+
+3. **Ajustes en `App.js`**:
+   - Se realizaron mejoras para integrar los nuevos campos de registro en el sistema de rutas y garantizar que los cambios en el registro estén en línea con el diseño general de la aplicación.
+
+
+
 ## Funcionamiento del Código
 
 El código se ha desarrollado utilizando React para el frontend y Node.js con Express para el backend. Aquí se detallan las principales funcionalidades implementadas:
