@@ -12,7 +12,7 @@ El proyecto Amex es una aplicación de gestión financiera que permite a los usu
 4. **Resumen de Gastos**: Generar resúmenes de gastos que permitan a los usuarios tener una visión clara de sus finanzas.
 5. **Alertas de Presupuesto**: Implementar un sistema de alertas que notifique a los usuarios cuando estén cerca de alcanzar sus límites de presupuesto.
 
-## Cambios Versión 0.3
+## Cambios Actualización 0.3
 
 1. **Integración de Total de Gastos**: Se ha añadido un apartado en el Resumen de Gastos que muestra el total acumulado de todos los gastos registrados, ofreciendo una visión más completa de la situación financiera del usuario.
 
@@ -22,7 +22,7 @@ El proyecto Amex es una aplicación de gestión financiera que permite a los usu
 
 4. **Mejoras en la Interfaz**: Se han realizado cambios en el CSS para mejorar la presentación de los componentes, asegurando que la información sea clara y fácil de leer. El total de gastos se ha posicionado al final del resumen, mientras que los pagos pendientes y el historial crediticio se muestran de manera organizada.
 
-## Cambios Versión 0.4
+## Cambios Actualización 0.4
 
 1. **Mejoras en el Componente de Registro**:
    - **Nuevos Campos**: Se han añadido nuevos campos en el formulario de registro para capturar información adicional del usuario, como nombre completo, fecha de nacimiento, teléfono y dirección. Estos campos permiten una captura de datos más completa y personalizada.
@@ -36,7 +36,21 @@ El proyecto Amex es una aplicación de gestión financiera que permite a los usu
 3. **Ajustes en `App.js`**:
    - Se realizaron mejoras para integrar los nuevos campos de registro en el sistema de rutas y garantizar que los cambios en el registro estén en línea con el diseño general de la aplicación.
 
+## Cambios Actualización 0.5
 
+1. **Actualización de la Página de Inicio**:
+   - **Diseño Profesional**: La página de inicio ha sido rediseñada para ofrecer un aspecto más profesional y alineado con los estándares de una aplicación de gestión bancaria.
+   - **Información sobre AMEX**: Se han añadido secciones adicionales que describen los servicios y la visión de la compañía AMEX, como “Qué Ofrecemos” y “Valores de la Compañía”.
+   - **Imágenes de CEO**: Las imágenes de los CEOs han sido alineadas horizontalmente para una presentación más estética y profesional.
+
+2. **Menús Desplegables**: 
+   - Se han implementado menús desplegables con información interesante sobre AMEX, proporcionando contenido adicional que enriquece la experiencia del usuario.
+
+3. **Estilo de CSS**:
+   - Se han realizado mejoras en el CSS para que la barra de navegación esté al mismo nivel que el contenido de la página principal, asegurando un diseño cohesivo.
+
+4. **Pie de Página**: 
+   - Se ha agregado un pie de página que incluye el texto "AMEX 2024 Copyright" junto con el logo de la compañía.
 
 ## Funcionamiento del Código
 
